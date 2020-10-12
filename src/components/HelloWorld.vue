@@ -1,7 +1,5 @@
 <template>
-  <div class="hello">
-    <el-input v-model="input" placeholder="请输入内容"></el-input>
-  </div>
+  <h1>aaa</h1>
 </template>
 
 <script>
