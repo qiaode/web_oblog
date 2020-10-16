@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import Article from '@/pages/manage/article/article'
+import Article from '@/views/manage/article/article'
+import Layout from '@/layout'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/article',
       name: 'Article',
       component: Article
+    },
+    {
+      path: '/layout',
+      name: 'Layout',
+      component: Layout
     }
   ]
 })
